@@ -15,7 +15,7 @@ function mystery(a) {
     // Okay now this bit is comparison, I think was its doing is returning the maximum element in a string or maybe an array because this bit is saying 
     // if foo (the sliced element) is bigger than the first index of an object. then return foo i.e the max element. 
     else return a[0];
-    //  If foo is smaller than first index then return first index 
+    //  If foo is smaller than value at the first index then return that first index value (I said index initially and I had meant value at index) 
     //So it looks like this function is recursively slicing up large elements and returning the largest value of those elements?
 }
 ```
